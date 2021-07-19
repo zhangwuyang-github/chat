@@ -7,10 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .right {
+  .content {
     flex: 2;
-  }
-  .left {
-    flex: 1;
+    overflow: hidden;
   }
 }

@@ -29,10 +29,10 @@
 }
 .chat {
   display: flex;
-  width: 400px;
-  padding: 1rem;
+  width: 1000px;
+  padding-top: 1rem;
   justify-content: space-between;
-  height: 600px;
+  height: calc(100vh - 1rem);
   flex-direction: column;
   background-color: $greyColor;
   .userName {
@@ -64,13 +64,14 @@
         background-color: #250202;
         border-radius: 0px 10px 10px 10px;
         padding: 1rem;
+        margin-top: 3vh;
       }
 
       span {
         color: #b4b6be;
         font-size: 0.6rem;
         padding-left: 0.5rem;
-        font-weight: 200;
+        font-weight: 500;
       }
     }
     .messRight {
